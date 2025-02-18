@@ -1,0 +1,39 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.iamge{
+    position: relative;
+
+}
+button{
+    position: absolute;
+    top: 14px;
+    left: 550px;
+    background:none ;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.avt{
+    display: flex;
+    gap: 25px;
+}
+
+.avt img{
+    border-radius: 50%;
+    width: 100px;
+    
+}
+
+.avt p{
+    padding-top: 25px;
+}
+
+.date{
+    opacity: 0.5;
+    padding-left: 15px;
+}
+
